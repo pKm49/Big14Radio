@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8484E206218F3B0D00C65EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484E205218F3B0D00C65EE2 /* AppDelegate.swift */; };
+		8484E208218F3B0D00C65EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484E207218F3B0D00C65EE2 /* ViewController.swift */; };
+		8484E20D218F3B0E00C65EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8484E20C218F3B0E00C65EE2 /* Assets.xcassets */; };
+		8484E210218F3B0E00C65EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8484E20E218F3B0E00C65EE2 /* LaunchScreen.storyboard */; };
+		8484E21B218F3B0E00C65EE2 /* Big14RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484E21A218F3B0E00C65EE2 /* Big14RadioTests.swift */; };
+		8484E226218F3B0E00C65EE2 /* Big14RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484E225218F3B0E00C65EE2 /* Big14RadioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8484E217218F3B0E00C65EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8484E1FA218F3B0D00C65EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8484E201218F3B0D00C65EE2;
+			remoteInfo = Big14Radio;
+		};
+		8484E222218F3B0E00C65EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8484E1FA218F3B0D00C65EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8484E201218F3B0D00C65EE2;
+			remoteInfo = Big14Radio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8484E202218F3B0D00C65EE2 /* Big14Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Big14Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8484E205218F3B0D00C65EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8484E207218F3B0D00C65EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8484E20C218F3B0E00C65EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8484E20F218F3B0E00C65EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8484E211218F3B0E00C65EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8484E216218F3B0E00C65EE2 /* Big14RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Big14RadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8484E21A218F3B0E00C65EE2 /* Big14RadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big14RadioTests.swift; sourceTree = "<group>"; };
+		8484E21C218F3B0E00C65EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8484E221218F3B0E00C65EE2 /* Big14RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Big14RadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8484E225218F3B0E00C65EE2 /* Big14RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big14RadioUITests.swift; sourceTree = "<group>"; };
+		8484E227218F3B0E00C65EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8484E1FF218F3B0D00C65EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484E213218F3B0E00C65EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484E21E218F3B0E00C65EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8484E1F9218F3B0D00C65EE2 = {
+			isa = PBXGroup;
+			children = (
+				8484E204218F3B0D00C65EE2 /* Big14Radio */,
+				8484E219218F3B0E00C65EE2 /* Big14RadioTests */,
+				8484E224218F3B0E00C65EE2 /* Big14RadioUITests */,
+				8484E203218F3B0D00C65EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8484E203218F3B0D00C65EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8484E202218F3B0D00C65EE2 /* Big14Radio.app */,
+				8484E216218F3B0E00C65EE2 /* Big14RadioTests.xctest */,
+				8484E221218F3B0E00C65EE2 /* Big14RadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8484E204218F3B0D00C65EE2 /* Big14Radio */ = {
+			isa = PBXGroup;
+			children = (
+				8484E205218F3B0D00C65EE2 /* AppDelegate.swift */,
+				8484E207218F3B0D00C65EE2 /* ViewController.swift */,
+				8484E20C218F3B0E00C65EE2 /* Assets.xcassets */,
+				8484E20E218F3B0E00C65EE2 /* LaunchScreen.storyboard */,
+				8484E211218F3B0E00C65EE2 /* Info.plist */,
+			);
+			path = Big14Radio;
+			sourceTree = "<group>";
+		};
+		8484E219218F3B0E00C65EE2 /* Big14RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				8484E21A218F3B0E00C65EE2 /* Big14RadioTests.swift */,
+				8484E21C218F3B0E00C65EE2 /* Info.plist */,
+			);
+			path = Big14RadioTests;
+			sourceTree = "<group>";
+		};
+		8484E224218F3B0E00C65EE2 /* Big14RadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8484E225218F3B0E00C65EE2 /* Big14RadioUITests.swift */,
+				8484E227218F3B0E00C65EE2 /* Info.plist */,
+			);
+			path = Big14RadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8484E201218F3B0D00C65EE2 /* Big14Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8484E22A218F3B0E00C65EE2 /* Build configuration list for PBXNativeTarget "Big14Radio" */;
+			buildPhases = (
+				8484E1FE218F3B0D00C65EE2 /* Sources */,
+				8484E1FF218F3B0D00C65EE2 /* Frameworks */,
+				8484E200218F3B0D00C65EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Big14Radio;
+			productName = Big14Radio;
+			productReference = 8484E202218F3B0D00C65EE2 /* Big14Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8484E215218F3B0E00C65EE2 /* Big14RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8484E22D218F3B0E00C65EE2 /* Build configuration list for PBXNativeTarget "Big14RadioTests" */;
+			buildPhases = (
+				8484E212218F3B0E00C65EE2 /* Sources */,
+				8484E213218F3B0E00C65EE2 /* Frameworks */,
+				8484E214218F3B0E00C65EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8484E218218F3B0E00C65EE2 /* PBXTargetDependency */,
+			);
+			name = Big14RadioTests;
+			productName = Big14RadioTests;
+			productReference = 8484E216218F3B0E00C65EE2 /* Big14RadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8484E220218F3B0E00C65EE2 /* Big14RadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8484E230218F3B0E00C65EE2 /* Build configuration list for PBXNativeTarget "Big14RadioUITests" */;
+			buildPhases = (
+				8484E21D218F3B0E00C65EE2 /* Sources */,
+				8484E21E218F3B0E00C65EE2 /* Frameworks */,
+				8484E21F218F3B0E00C65EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8484E223218F3B0E00C65EE2 /* PBXTargetDependency */,
+			);
+			name = Big14RadioUITests;
+			productName = Big14RadioUITests;
+			productReference = 8484E221218F3B0E00C65EE2 /* Big14RadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8484E1FA218F3B0D00C65EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = big14;
+				TargetAttributes = {
+					8484E201218F3B0D00C65EE2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8484E215218F3B0E00C65EE2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8484E201218F3B0D00C65EE2;
+					};
+					8484E220218F3B0E00C65EE2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8484E201218F3B0D00C65EE2;
+					};
+				};
+			};
+			buildConfigurationList = 8484E1FD218F3B0D00C65EE2 /* Build configuration list for PBXProject "Big14Radio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8484E1F9218F3B0D00C65EE2;
+			productRefGroup = 8484E203218F3B0D00C65EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8484E201218F3B0D00C65EE2 /* Big14Radio */,
+				8484E215218F3B0E00C65EE2 /* Big14RadioTests */,
+				8484E220218F3B0E00C65EE2 /* Big14RadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8484E200218F3B0D00C65EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484E210218F3B0E00C65EE2 /* LaunchScreen.storyboard in Resources */,
+				8484E20D218F3B0E00C65EE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484E214218F3B0E00C65EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484E21F218F3B0E00C65EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8484E1FE218F3B0D00C65EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484E208218F3B0D00C65EE2 /* ViewController.swift in Sources */,
+				8484E206218F3B0D00C65EE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484E212218F3B0E00C65EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484E21B218F3B0E00C65EE2 /* Big14RadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484E21D218F3B0E00C65EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484E226218F3B0E00C65EE2 /* Big14RadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8484E218218F3B0E00C65EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8484E201218F3B0D00C65EE2 /* Big14Radio */;
+			targetProxy = 8484E217218F3B0E00C65EE2 /* PBXContainerItemProxy */;
+		};
+		8484E223218F3B0E00C65EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8484E201218F3B0D00C65EE2 /* Big14Radio */;
+			targetProxy = 8484E222218F3B0E00C65EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8484E20E218F3B0E00C65EE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8484E20F218F3B0E00C65EE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8484E228218F3B0E00C65EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8484E229218F3B0E00C65EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8484E22B218F3B0E00C65EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6HY4U5NH;
+				INFOPLIST_FILE = Big14Radio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.big14radio.Big14Radio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8484E22C218F3B0E00C65EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6HY4U5NH;
+				INFOPLIST_FILE = Big14Radio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.big14radio.Big14Radio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8484E22E218F3B0E00C65EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6HY4U5NH;
+				INFOPLIST_FILE = Big14RadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.big14radio.Big14RadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big14Radio.app/Big14Radio";
+			};
+			name = Debug;
+		};
+		8484E22F218F3B0E00C65EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6HY4U5NH;
+				INFOPLIST_FILE = Big14RadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.big14radio.Big14RadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big14Radio.app/Big14Radio";
+			};
+			name = Release;
+		};
+		8484E231218F3B0E00C65EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6HY4U5NH;
+				INFOPLIST_FILE = Big14RadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.big14radio.Big14RadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Big14Radio;
+			};
+			name = Debug;
+		};
+		8484E232218F3B0E00C65EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6HY4U5NH;
+				INFOPLIST_FILE = Big14RadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.big14radio.Big14RadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Big14Radio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8484E1FD218F3B0D00C65EE2 /* Build configuration list for PBXProject "Big14Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484E228218F3B0E00C65EE2 /* Debug */,
+				8484E229218F3B0E00C65EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8484E22A218F3B0E00C65EE2 /* Build configuration list for PBXNativeTarget "Big14Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484E22B218F3B0E00C65EE2 /* Debug */,
+				8484E22C218F3B0E00C65EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8484E22D218F3B0E00C65EE2 /* Build configuration list for PBXNativeTarget "Big14RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484E22E218F3B0E00C65EE2 /* Debug */,
+				8484E22F218F3B0E00C65EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8484E230218F3B0E00C65EE2 /* Build configuration list for PBXNativeTarget "Big14RadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484E231218F3B0E00C65EE2 /* Debug */,
+				8484E232218F3B0E00C65EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8484E1FA218F3B0D00C65EE2 /* Project object */;
+}
